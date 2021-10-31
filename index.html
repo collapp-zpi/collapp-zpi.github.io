@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Collapp Documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="shortcut icon" href="_media/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+    />
+  </head>
+  <body>
+    <div data-app id="main">Please wait...</div>
+    <script>
+      window.$docsify = {
+        name: "Collapp",
+        repo: "",
+        el: "#main",
+        nameLink: "/",
+        subMaxLevel: 5,
+        coverpage: true,
+        loadSidebar: true,
+        autoHeader: true,
+        relativePath: true,
+        onlyCover: true,
+        auto2top: true,
+        themeable: {
+          readyTransition: true, // default
+          responsiveTables: true, // default
+        },
+        search: {
+          maxAge: 86400000, // Expiration time, the default one day
+          paths: "auto",
+          placeholder: "Search...",
+          noData: "Sorry, no results",
+          depth: 8,
+          hideOtherSidebarContent: false,
+        },
+        tabs: {
+          persist: true, // default
+          sync: true, // default
+          theme: "classic", // default
+          tabComments: true, // default
+          tabHeadings: true, // default
+        },
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-scss.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jsx.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-scss.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  </body>
+</html>
